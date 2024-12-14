@@ -1,0 +1,7 @@
+** sch_path: /home/ishi_kai/Documents/inverter.sch
+.subckt inverter A Q VDD VSS
+*.PININFO A:B Q:B VDD:B VSS:B
+M1 Q A VDD VDD pmos w=20u l=6u as=0 ps=0 ad=0 pd=0 m=1
+M2 Q A VSS VSS nmos w=20u l=10u as=0 ps=0 ad=0 pd=0 m=1
+.ends
+.end
